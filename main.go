@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("parallel execution != concurrency")
+	fmt.Println(1 + 1)
 }
