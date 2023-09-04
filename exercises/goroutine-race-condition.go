@@ -1,11 +1,11 @@
-package main
+package exercices
 
 import (
 	"fmt"
 	"sync"
 )
 
-func main() {
+func ExecuteGoRoutineRaceCondition() {
 	var wg sync.WaitGroup
 	numberRoutines := 100
 	counter := 0
