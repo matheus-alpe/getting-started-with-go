@@ -1,4 +1,4 @@
-package main
+package exercices
 
 import (
 	"bufio"
@@ -70,7 +70,7 @@ func InputIntegers() ([]int, error) {
 	return integers, nil
 }
 
-func main() {
+func ExecuteGoRoutinesSplitFour() {
 	var wg sync.WaitGroup
 	var numbersChan = make(chan []int, pieces)
 
